@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\test1">
+      <UniqueIdentifier>{993b21f1-74b3-415c-98e9-684cf841190a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\test1">
+      <UniqueIdentifier>{49e4acf9-06f2-4e6d-8e2d-8445ce36046d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tool">
+      <UniqueIdentifier>{9f1e5c98-c36e-44cc-bbf1-91f4a909e61e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\tool">
+      <UniqueIdentifier>{cd227b2c-c1b1-46ac-8b6c-193e053790d7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Story.cpp">
+      <Filter>ソース ファイル\test1</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>ソース ファイル\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Choices.cpp">
+      <Filter>ソース ファイル\test1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LayerManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ILayerManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Story.h">
+      <Filter>ヘッダー ファイル\test1</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>ヘッダー ファイル\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Choices.h">
+      <Filter>ヘッダー ファイル\test1</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
